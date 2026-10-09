@@ -1,0 +1,96 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.contenido {
+height: 100vh;
+background-size: 100% auto;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+#zona1 {
+background-image: url(../images/logonintendo.gif);
+}
+
+#zona2 {
+background-image: url(../images/nes.jpg);
+}
+
+#zona30 {
+background-image: url(../images/snes.jpg);
+}
+
+#zona40 {
+background-image: url(../images/virtual\ boy.jpg);
+}
+#zona50 {
+background-image: url(../images/64.jpg);
+}
+#zona60 {
+background-image: url(../images/color.jpg);
+}
+#zona70 {
+background-image: url(../images/game\ boy\ andvance.jpg);
+}
+#zona80 {
+background-image: url(../images/game\ vube.jpg);
+}
+#zona90 {
+background-image: url(../images/ds.jpg);
+}
+#zona100 {
+background-image: url(../images/wii.jpg);
+}
+#zona110 {
+background-image: url(../images/3ds.jpg);
+}
+#zona120 {
+background-image: url(../images/wiu.jpg);
+}
+#zona130 {
+background-image: url(../images/switch.jpg);
+}#zona140 {
+background-image: url(../images/game\ boy.jpg);
+}
+
+
+
+
+nav {
+position: fixed;
+left: 200px;
+top: 5%;
+z-index: 100;
+transition: 0.4s ease;
+transform: translateX(-50%);
+}
+
+ul {
+list-style: none;
+}
+
+ul a {
+display: block;
+color: rgb(252, 252, 253);
+text-decoration: none;
+height: 40px;
+border: 1px solid red;
+width: 150px;
+text-align: center;
+padding: 10px 0;
+transition: 0.4s ease;
+}
+
+ul a:hover {
+background-color: red;
+color: white;
+transform: translateX(50px);
+}
